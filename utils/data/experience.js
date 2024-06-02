@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 1,
-    title: "Junior Backend Developer",
+    title: "Backend Developer",
     company: "SunoKitaab Private Ltd.",
     duration: "(July 2023 - Present)",
   },
