@@ -59,7 +59,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "PDF to Audio Converter",
+    name: "PDF to Audio Converter Using ML",
     description:
       "I have developed a PDF to Audio Converter tool using Python. Though there are many tools available for this, And I myself used some of them. I used Surya Package for Converting the PDF to Text using OCR and then I used IIT Madras Text to Speech Model name FastSpeech2_HS for converting the text to Audio.",
     tools: [
