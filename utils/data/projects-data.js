@@ -16,7 +16,24 @@ export const projectsData = [
   },
   {
     id: 2,
-    name: "Real Estate Backend",
+    name: "TTS (PDF to Audio Converter) Using ML",
+    description:
+      "I have developed a PDF to Audio Converter tool using Python. Though there are many tools available for this, And I myself used some of them. I used Surya Package for Converting the PDF to Text using OCR and then I used IIT Madras Text to Speech Model name FastSpeech2_HS for converting the text to Audio.",
+    tools: [
+      "Python",
+      "https://github.com/VikParuchuri/surya/",
+      "https://github.com/smtiitm/Fastspeech2_HS",
+      "Docker",
+      "FFMPEG",
+    ],
+    code: "",
+    demo: "",
+    image: ayla,
+    role: "Python Developer, Machine Learning, AI Developer",
+  },
+  {
+    id: 3,
+    name: "Backend for Property Dealing Website",
     description:
       "Built an backend of real estate app NestJS & Microservices. To develop the API, I used NestJS, Docker, RabbitMQ, Typescript, Stripe, and Mongoose. For the UI, we utilized NextJS, TailwindCSS, and other npm libraries. I added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.",
     tools: [
@@ -38,10 +55,10 @@ export const projectsData = [
     image: realEstate,
   },
   {
-    id: 3,
-    name: "Tetrament (Notion Clone)",
+    id: 4,
+    name: "Personal Notes Application",
     description:
-      "I developed Notion Clone Collaborating application called Tetrament. As a Backend & Frontend developer, I worked on creating the dashboard using NextJS, Shadcn-ui, drizzle, Supabase, Socket, and other necessary npm libraries.I used Socket.io for real-time collaboration and Syncing Functionality.",
+      "I developed Personal Notes Application called Tetrament. As a Backend & Frontend developer, I worked on creating the dashboard using NextJS, Shadcn-ui, drizzle, Supabase, Socket, and other necessary npm libraries.I used Socket.io for real-time collaboration and Syncing Functionality.",
     tools: [
       "NextJS",
       "Shadcn-ui",
@@ -58,25 +75,8 @@ export const projectsData = [
     role: "Full Stack Developer",
   },
   {
-    id: 4,
-    name: "TTS (PDF to Audio Converter) Using ML",
-    description:
-      "I have developed a PDF to Audio Converter tool using Python. Though there are many tools available for this, And I myself used some of them. I used Surya Package for Converting the PDF to Text using OCR and then I used IIT Madras Text to Speech Model name FastSpeech2_HS for converting the text to Audio.",
-    tools: [
-      "Python",
-      "https://github.com/VikParuchuri/surya/",
-      "https://github.com/smtiitm/Fastspeech2_HS",
-      "Docker",
-      "FFMPEG",
-    ],
-    code: "",
-    demo: "",
-    image: ayla,
-    role: "Python Developer, Machine Learning, AI Developer",
-  },
-  {
     id: 5,
-    name: "ncertpdf.com",
+    name: "Ncertpdf.com",
     description:
       "I have Build a Website for NCERT PDFs. I have used React for the Frontend and NodeJS for the Backend.",
     tools: ["React", "NodeJS", "Express", "NextJS", "TailwindCSS"],
@@ -84,6 +84,28 @@ export const projectsData = [
     demo: "",
     image: ayla,
     role: "Full Stack Developer",
+  },
+  {
+    id: 6,
+    name: "Vidyaly.com",
+    description:
+      "Built this School ERP Website for Schools to manage their infrastructure, Using PHP, Laravel, VueJS, SQL, jQuery. I also have given schools to build their own CMS/Frontend Website.",
+    tools: ["PHP", "Laravel", "VueJS", "SQL", "jQuery"],
+    code: "",
+    demo: "",
+    image: ayla,
+    role: "Full Stack developer",
+  },
+  {
+    id: 7,
+    name: "Google Maps Extractor",
+    description:
+      "I have Build an Google Chrome Extension for extracting Google Maps Data. I have used Vanilla JavaScript for that.",
+    tools: ["Vanilla JavaScript"],
+    code: "",
+    demo: "",
+    image: ayla,
+    role: "JavaScript Developer",
   },
 ];
 
