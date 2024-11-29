@@ -24,6 +24,12 @@ function Blog({ blogs }) {
             Read Some Blogs
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <a target="_blank" href="https://itsamanblog.vercel.app/">
+            <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
+              My Blogs V2
+            </span>
+          </a>
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
       </div>
 
