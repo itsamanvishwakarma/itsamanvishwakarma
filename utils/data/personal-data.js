@@ -13,5 +13,5 @@ export const personalData = {
   twitter: "https://twitter.com/itsamanvishw",
   devUsername: "itsamanvishwakarma",
   resume:
-    "https://1drv.ms/b/c/83425d9240b2300e/EaUykvpG7XxDsaKek_VsCB8BVnHAFr3B6_7QVLw6tq8JCg?e=O6zzcO",
+    "https://drive.google.com/file/d/1oVBqQwUQSUVy7Rqz57i3Qu-QQykOz33k/view?usp=sharing",
 };
