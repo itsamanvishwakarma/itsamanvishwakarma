@@ -1,20 +1,20 @@
 export const experiences = [
   {
     id: 1,
-    title: "Backend Developer",
+    title: "Intern Developer",
     company: "SunoKitaab Private Ltd.",
-    duration: "(July 2023 - Present)",
+    duration: "(November 2023 - December 2024)",
   },
   {
     id: 2,
-    title: "Backend developer Intern",
+    title: "Junior Backend Developer",
     company: "SunoKitaab Private Ltd.",
-    duration: "(May 2023 - June 2023)",
+    duration: "(January 2025 - Present)",
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(April 2023 - Present)",
+    title: "WhatsApp Bot - Auto Chat Responder",
+    company: "Saajha NGO.",
+    duration: "(October 2025 - December 2025)",
   },
 ];
